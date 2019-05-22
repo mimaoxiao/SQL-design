@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+      @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: normal;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+class: center, middle
+
+# 公益捐赠管理系统
+制作者：吴迪峰 20171680
+---
+
+# 开发工具
+
++ 前端:HTML+CSS+JS 框架:Bootstarp
+
+使用基本的前端开发语言，jQuery负责发送与接收数据，Bootstrap用于帮助排版布局
+
++ 后台:Ubuntu+Nginx+PHP+MySQL 框架:codeigniter
+
+codeigniter用于连接数据库，格式化访问URL，格式化输入防止SQL注入
+
+---
+
+# 系统功能
+
+1. 基本的增删改查
+2. 删除操作使用懒惰删除避免误操作，可以快速恢复
+3. 数据的备份
+4. 对增删改查操作都进行日志记录
+
+    </textarea>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create();
+    </script>
+  </body>
+</html>

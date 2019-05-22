@@ -1,0 +1,107 @@
+.footer-text {
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.main {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-text.col-md-5>a {
+    text-decoration: underline;
+    color: white;
+}
+
+.footer-text.col-md-3>a {
+    text-decoration: none;
+    color: white;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 90%;
+    background: linear-gradient(to bottom, #000046, #1cb5e0);
+    overflow-x: hidden;
+}
+
+.head-picture {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.input-group #name.form-control {
+    width: 258px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.input-group #password.form-control {
+    width: 258px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    font-weight: 500;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    font-weight: 500;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    font-weight: 500;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    font-weight: 500;
+}
+
+.sub-btn {
+    font-weight: bolder;
+    color: white;
+}
+
+.btn {
+    width: 258px;
+    background: #0099CC;
+    border: none;
+}
+
+.support-text {
+    text-decoration: underline;
+    color: black;
+    font-size: 10px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.footer {
+    background-color: black;
+    position: absolute;
+    width: 100%;
+}

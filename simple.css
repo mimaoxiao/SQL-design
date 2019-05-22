@@ -1,0 +1,103 @@
+div.main-content {
+    background: white;
+    margin: 15px 15px 0 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+table {
+    font-size: 14px;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border-collapse: separate;
+    width: 100%;
+}
+
+tr {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+table>tbody>tr>td,
+table>tbody>tr>th,
+table>tfoot>tr>td,
+table>tfoot>tr>th,
+table>thead>tr>td,
+table>thead>tr>th {
+    vertical-align: middle;
+}
+
+.button-toolbar {
+    padding-bottom: 10px;
+}
+
+.main-content {
+    padding: 10px;
+    border-top: 3px solid lightskyblue;
+}
+
+.bs-checkbox {
+    width: 36.8px;
+}
+
+.modal-dialog {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.modal-content {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: lightskyblue;
+    padding: 15px;
+}
+
+.modal-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.modal-small-title {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.modal-form {
+    border-top: 3px solid blue;
+    background-color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.form-group>input,
+.form-group>textarea {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+th {
+    width: 50px;
+}
+
+.fht-cell {
+    width: 36.8px;
+}
+
+.info {
+    padding-top: 5px;
+    text-decoration: underline;
+}

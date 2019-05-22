@@ -1,0 +1,32 @@
+.table {
+    font-size: 13px;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border-collapse: separate;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.table>thead>tr>th {
+
+    text-align: center;
+}
+
+tr {
+    height: 50px;
+}
+
+td {
+    padding-top: 12px;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    vertical-align: middle;
+}
